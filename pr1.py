@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+
+
+
 df = pd.read_csv('movehubqualityoflife.csv')
 df.rename(columns={'lng':'lon'},inplace=True)
 
